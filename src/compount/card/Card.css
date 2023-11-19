@@ -1,0 +1,26 @@
+
+.box a img{
+    transition: transform .3s;  
+  }
+  
+  .box a:hover img {
+    transform: scale(1.4);
+  }
+  
+  .box img {
+    border-radius: 2px;
+  }
+
+
+
+
+
+@media(max-width: 500px) {
+    
+  .box a:hover {
+        transition: transform .3s;
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);  
+        transform: scale(1.2);
+      }
+}  

@@ -13,18 +13,18 @@ function About() {
       </div>
       <div className="sub-links">
         <ul>
-          <li><div href="#">Audio and Subtitles</div></li>
-          <li><div href="#">Audio Description</div></li>
-          <li><div href="#">Help Center</div></li>
-          <li><div href="#">Gift Cards</div></li>
-          <li><div href="#">Media Center</div></li>
-          <li><div href="#">Investor Relations</div></li>
-          <li><div href="#">Jobs</div></li>
-          <li><div href="#">Terms of Use</div></li>
-          <li><div href="#">Privacy</div></li>
-          <li><div href="#">Legal Notices</div></li>
-          <li><div href="#">Corporate Information</div></li>
-          <li><div href="#">Contact Us</div></li>
+          <li>Audio and Subtitles</li>
+          <li>Audio Description</li>
+          <li>Help Center</li>
+          <li>Gift Cards</li>
+          <li>Media Center</li>
+          <li>Investor Relations</li>
+          <li>Jobs</li>
+          <li>Terms of Use</li>
+          <li>Privacy</li>
+          <li>Legal Notices</li>
+          <li>Corporate Information</li>
+          <li>Contact Us</li>
         </ul>
       </div>
     </section>

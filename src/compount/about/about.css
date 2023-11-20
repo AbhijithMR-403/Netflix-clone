@@ -11,12 +11,12 @@
     grid-template-columns: repeat(4, 1fr);
   }
   
-  .sub-links div{
+  .sub-links li {
     color: var(--dark);
     text-decoration: none;
   }
   
-  .sub-links div:hover {
+  .sub-links li:hover {
     color: var(--dark);
     text-decoration: underline;
   }
@@ -25,7 +25,8 @@
     padding: 10px;
   }
   
-  .logo i{
+  .logos {
+    text-align: center;
     color: var(--dark);
   }
   
@@ -45,7 +46,6 @@
       grid-gap: 20px;
       grid-template-columns: repeat(3, 1fr);
     }
-     
   }
   
   @media(max-width: 500px) {

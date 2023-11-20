@@ -1,9 +1,9 @@
 
-.box a img{
+.box div img{
     transition: transform .3s;  
   }
   
-  .box a:hover img {
+  .box div:hover img {
     transform: scale(1.4);
   }
   
@@ -17,7 +17,7 @@
 
 @media(max-width: 500px) {
     
-  .box a:hover {
+  .box div:hover {
         transition: transform .3s;
         -ms-transform: scale(1);
         -webkit-transform: scale(1);  

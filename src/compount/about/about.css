@@ -11,21 +11,21 @@
     grid-template-columns: repeat(4, 1fr);
   }
   
-  .sub-links a {
+  .sub-links div{
     color: var(--dark);
     text-decoration: none;
   }
   
-  .sub-links a:hover {
+  .sub-links div:hover {
     color: var(--dark);
     text-decoration: underline;
   }
   
-  .logos a{
+  .logos i{
     padding: 10px;
   }
   
-  .logo {
+  .logo i{
     color: var(--dark);
   }
   

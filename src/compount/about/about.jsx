@@ -6,25 +6,25 @@ function About() {
     <div>
         <section className="link">
       <div className="logos">
-        <a href="#"><i className="fab fa-facebook-square fa-2x logo"></i></a>
-        <a href="#"><i className="fab fa-instagram fa-2x logo"></i></a>
-        <a href="#"><i className="fab fa-twitter fa-2x logo"></i></a>
-        <a href="#"><i className="fab fa-youtube fa-2x logo"></i></a>
+        <i className="fab fa-facebook-square fa-2x logo"></i>
+        <i className="fab fa-instagram fa-2x logo"></i>
+        <i className="fab fa-twitter fa-2x logo"></i>
+        <i className="fab fa-youtube fa-2x logo"></i>
       </div>
       <div className="sub-links">
         <ul>
-          <li><a href="#">Audio and Subtitles</a></li>
-          <li><a href="#">Audio Description</a></li>
-          <li><a href="#">Help Center</a></li>
-          <li><a href="#">Gift Cards</a></li>
-          <li><a href="#">Media Center</a></li>
-          <li><a href="#">Investor Relations</a></li>
-          <li><a href="#">Jobs</a></li>
-          <li><a href="#">Terms of Use</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Legal Notices</a></li>
-          <li><a href="#">Corporate Information</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><div href="#">Audio and Subtitles</div></li>
+          <li><div href="#">Audio Description</div></li>
+          <li><div href="#">Help Center</div></li>
+          <li><div href="#">Gift Cards</div></li>
+          <li><div href="#">Media Center</div></li>
+          <li><div href="#">Investor Relations</div></li>
+          <li><div href="#">Jobs</div></li>
+          <li><div href="#">Terms of Use</div></li>
+          <li><div href="#">Privacy</div></li>
+          <li><div href="#">Legal Notices</div></li>
+          <li><div href="#">Corporate Information</div></li>
+          <li><div href="#">Contact Us</div></li>
         </ul>
       </div>
     </section>

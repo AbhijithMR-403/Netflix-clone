@@ -11,8 +11,8 @@ function Card(props) {
         })
       },[props.url])
   return (
-    <div>
-      {movie.map((movie_det)=>{
+    <div className="box">
+      {movie.slice(1,props.size).map((movie_det)=>{
         console.log(movie_det.backdrop_path);
                     return <div><img src={img_Base_url+movie_det.backdrop_path} alt="" /></div>
                   })}

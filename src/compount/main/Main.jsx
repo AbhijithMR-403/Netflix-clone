@@ -7,25 +7,25 @@ function Main() {
         <div>
             <div className="location" id="home">
                 <h1 id="home">Popular on Netflix</h1>
-                <div className="box">
-                <Card url={`movie/now_playing?api_key=${API_KEY}`} size={12} />
-                </div>
-            </div>
+                
+                <Card url={`movie/now_playing?api_key=${API_KEY}`} size={13} />
+              </div>
+            
 
       <h1 id="tvShows">TV Shows</h1>
-      <div className="box">
-      <Card url={`movie/now_playing?api_key=${API_KEY}`} size={6} />
-      </div>
+      
+      <Card url={`movie/popular?api_key=${API_KEY}`} size={7} />
+      
       
       <h1 id="movies">Blockbuster Action & Adventure</h1>
-      <div className="box">
-      <Card url={`movie/now_playing?api_key=${API_KEY}`} size={6} />
-      </div>
+      
+      <Card url={`movie/upcoming?api_key=${API_KEY}`} size={13} />
+      
 
       <h1 id="originals">Netflix Originals</h1>
-      <div className="box">
-      <Card url={`movie/now_playing?api_key=${API_KEY}`} size={6} />
-      </div>
+      
+      <Card url={`movie/top_rated?api_key=${API_KEY}`} size={7} />
+      
       </div>
     )
 }

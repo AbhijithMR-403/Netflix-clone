@@ -1,11 +1,21 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import "./Card.css"
+import instance from '../../axios'
 import { img_Base_url } from '../../constants/constants'
 
 function Card(props) {
+  const [movie,setMovie] = useState([])
+    useEffect(()=>{
+        instance.get(props.url).then((res)=>{
+          setMovie(res.data.results)
+        })
+      },[props.url])
   return (
-    <div>
-        <div href=""><img src={props.img_path?img_Base_url+props.img_path:"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p1.PNG?raw=true"} alt="" /></div>
+    <div className="box">
+      {movie.slice(1,props.size).map((movie_det)=>{
+        console.log(movie_det.backdrop_path);
+                    return <div><img src={img_Base_url+movie_det.backdrop_path} alt="" /></div>
+                  })}
     </div>
   )
 }

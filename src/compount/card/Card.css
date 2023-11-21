@@ -1,6 +1,6 @@
 
 .box div img{
-    transition: transform .3s;  
+    transition: transform .3s;
   }
   
   .box div:hover img {

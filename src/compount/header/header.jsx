@@ -4,22 +4,22 @@ import './header.css'
 function Header() {
   return (
     <div className='header'>
-        <div class="netflixLogo">
-        <a id="logo" href="#home">
-            <img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/logo.PNG?raw=true" alt="Logo Image" /></a>
+        <div className="netflixLogo">
+        <i id="logo" href="#home">
+            <img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/logo.PNG?raw=true" alt="Logo" /></i>
       </div>      
-      <nav class="main-nav">                
-        <a href="#home">Home</a>
-        <a href="#tvShows">TV Shows</a>
-        <a href="#movies">Movies</a>
-        <a href="#originals">Originals</a>
-        <a href="#">Recently Added</a>
-        <a target="_blank" href="https://codepen.io/cb2307/full/NzaOrm">Portfolio</a>        
+      <nav className="main-nav">                
+        <i href="#home">Home</i>
+        <i href="#tvShows">TV Shows</i>
+        <i href="#movies">Movies</i>
+        <i href="#originals">Originals</i>
+        <i href="#">Recently Added</i>
+        <i target="_blank" href="https://codepen.io/cb2307/full/NzaOrm">Portfolio</i>        
       </nav>
-      <nav class="sub-nav">
-        <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
-        <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
-        <a href="#">Account</a>        
+      <nav className="sub-nav">
+        <i href="#"><i className="fas fa-search sub-nav-logo"></i></i>
+        <i href="#"><i className="fas fa-bell sub-nav-logo"></i></i>
+        <i href="#">Account</i>
       </nav> 
     </div>
   )

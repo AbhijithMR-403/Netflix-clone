@@ -7,7 +7,7 @@ function Header() {
         <div className="netflixLogo">
         <i id="logo" href="#home">
             <img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/logo.PNG?raw=true" alt="Logo" /></i>
-      </div>      
+      </div>
       <nav className="main-nav">                
         <i href="#home">Home</i>
         <i href="#tvShows">TV Shows</i>
